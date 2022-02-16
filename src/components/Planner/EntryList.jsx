@@ -5,7 +5,6 @@ import styles from './EntryList.css';
 export default function Entries() {
   // TODO: Replace with the entries stored in PlannerContext
   const { entries } = useEntries();
-  console.log(entries);
 
   return (
     <ul className={styles.list}>

@@ -55,6 +55,10 @@ const PlannerProvider = ({ children }) => {
     return entries.find((note) => note.id === Number(id));
   };
 
+  // const updateEntry = (entry) => {
+  //   dispatch({ type: updateEntry, entry });
+  // };
+
   return (
     <PlannerContext.Provider
       value={{
